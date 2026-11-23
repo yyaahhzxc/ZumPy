@@ -1,0 +1,26 @@
+# Agent & workspace instructions / personal notes
+.agents/
+GEMINI.md
+DINER_DASH_HANDOFF.md
+*.pdf
+
+# Runtime debug & miss-logger dumps
+debug/
+
+# Python / pytest / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.spec
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
